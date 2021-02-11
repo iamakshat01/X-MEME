@@ -1,0 +1,46 @@
+#compo{
+    margin-top: 100px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.single{
+    width: 100%;
+    background-image: url("../shared/back.jpg")
+}
+#edit{
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 4500;
+    color:rgb(155, 30, 8);
+    background-color: rgb(255, 254, 253);
+    border-color: rgb(194, 77, 57);
+    border-width: 2px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    margin-top: 0.5vh;
+}
+#extra-card1{
+    float: left;
+}
+#extra-card2{
+    float: left;
+    padding-left: 20px;
+}
+.single{
+    border: 3px solid #B22222;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-bottom: 65px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 3500;
+    color:rgb(5, 1, 0);
+    letter-spacing: 0px;
+    margin-top: 0.5vh;
+}
+#card-text{
+    font-weight: 3000;
+}

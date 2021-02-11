@@ -1,0 +1,15 @@
+#mainNav {
+    box-shadow: 0 0.1rem 0.1rem rgba(241, 19, 19, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+    border: 1px solid #B22222;
+    border-radius: 1px;
+    font-size: 18px;
+}
+#logo{
+    color:#fb5849;
+}
+#logo img{
+    padding: 0px;
+    height: 70px;
+}

@@ -1,0 +1,20 @@
+form {
+    padding-top: 20vh;
+    padding-left: 30px;
+}
+#btn-submit{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 4500;
+    color:rgb(155, 30, 8);
+    background-color: rgb(255, 254, 253);
+    border-color: rgb(228, 42, 9);
+    border-width: 2px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-top: 3vh;
+}
+#btn-submit:hover{
+    background-color:#0275d8; 
+    color: white
+}
