@@ -13,7 +13,7 @@
 		"normalize-mongoose": "0.0.1"
 	},
 	"scripts": {
-		"start": "nodemon index.js",
+		"start": "node index.js",
 		"seed": "node seed.js"
 	},
 	"devDependencies": {

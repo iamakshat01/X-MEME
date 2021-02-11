@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source ~/.bashrc
 cd server/
 # Setup DB or any other environment variables you want to setup.
 npm install
