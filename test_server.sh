@@ -8,9 +8,9 @@
 
 # Run the user’s installation steps which will install any necessary dependencies required for the server to run, with sudo permission
 
-# chmod +x install.sh
+chmod +x install.sh
 
-# sudo ./install.sh
+sudo ./install.sh
 
 
 # 1. Run the user’s server execution steps which will bring up the server
@@ -31,7 +31,7 @@ chmod +x sleep.sh
 
 # Should return an empty array.
 
-# curl --location --request GET 'http://localhost:8081/memes'
+curl --location --request GET 'http://localhost:8081/memes'
 
 
 # Execute the POST /memes endpoint using curl
@@ -46,8 +46,7 @@ curl --location --request POST 'http://localhost:8081/memes' \
 
 
 # Execute the GET /memes endpoint using curl
-
-# curl --location --request GET 'http://localhost:8081/memes'
+curl --location --request GET 'http://localhost:8081/memes'
 
 
 # If you have swagger enabled, make sure it is exposed at localhost:8080
