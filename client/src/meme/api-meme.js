@@ -1,4 +1,4 @@
-const api='http://localhost:8081'
+const api='https://still-castle-64800.herokuapp.com'
 
 // to submit a meme
 const create = async (meme) => {

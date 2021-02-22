@@ -65,9 +65,9 @@ exports.editMeme = async (req, res, next) => {
         });
       }
       var caption = req.body.caption;
-      var url = req.body.urllink;
+      var url = req.body.url;
       meme.caption = caption;
-      meme.urllink =url;
+      meme.url =url;
       return res.status(200).json()
   })
   } 

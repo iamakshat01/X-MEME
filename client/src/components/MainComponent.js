@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Memes from './MemeComponent';
@@ -8,6 +8,7 @@ import EditMeme from './EditMeme';
 const Main = () => 
 {
   return ( <div>
+      <HashRouter>
       <Header/> 
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -15,6 +16,7 @@ const Main = () =>
         <Route exact path="/memes/:memeId" component={SingleMeme}/>
         <Route path="/memes/edit/:memeId" component={EditMeme}/>
       </Switch>
+      </HashRouter>
   </div>
   )
 }

@@ -10,7 +10,7 @@ import {
   NavLink
 } from 'reactstrap';
 import brand from '../shared/x-meme.png'
-
+import {Link} from 'react-router-dom'
 
 
 function Header (props) {
@@ -29,7 +29,7 @@ function Header (props) {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/memes">See-Meme's</NavLink>
+              <Link to="/memes"> <NavLink>See-Meme's</NavLink></Link>
             </NavItem>
           </Nav>
         </Collapse>
