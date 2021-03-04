@@ -1,5 +1,5 @@
 # X-Meme
-
+![X-MEME FRONTPAGE](https://github.com/iamakshat01/X-MEME/blob/master/Screenshot%20from%202021-03-04%2019-21-10.png)
 X-Meme is a Web-App to share memes with captions.
 
 ## Technologies Used
